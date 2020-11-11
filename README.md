@@ -185,6 +185,31 @@ Berikut ini merupakan langkah penyelesaian :
 ![soal12hasil](https://user-images.githubusercontent.com/49650266/98772092-8559c500-2418-11eb-8f42-bdade7374385.png) <br>
 
 ### Soal 13. Alias penanjakan.semeruc06.pw/public/javascripts jd penanjakan.semeruc06.pw/js
+Berikut ini merupakan langkah penyelesaian :
+* Tambahkan alias seperti ini di config penanjakan <br>
+![soal13awal](https://user-images.githubusercontent.com/49650266/98772493-5c85ff80-2419-11eb-82f1-88bbcb512bd5.png) <br>
+* Tes, buka penanjakan.semeruc06.pw/js <br>
+![soal13akhir](https://user-images.githubusercontent.com/49650266/98772486-5b54d280-2419-11eb-93de-be03164f6129.png)
+
+### Soal 14. Membuat web naik.gunung.semeruc06.pw bisa diakses lewat port 8888
+Berikut ini merupakan langkah penyelesaian :
+* Salin config seperti tadi, tapi portnya ganti 8888 <br>
+![soal14_1](https://user-images.githubusercontent.com/49650266/98772732-ff3e7e00-2419-11eb-8770-97bdf5a4bd11.png) <br>
+* Setting port agar listen ke 8888 <br>
+![soal14_2](https://user-images.githubusercontent.com/49650266/98772733-006fab00-241a-11eb-9683-314296c30926.png) <br>
+* Download, unzip ke /var/www <br>
+* A2ensite, restart apache, buka <br>
+![soal14_3](https://user-images.githubusercontent.com/49650266/98772734-01084180-241a-11eb-998e-48a231ab3e21.png)
+
+### Soal 15. 
+
+
+
+
+
+
+
+
 
 
 
