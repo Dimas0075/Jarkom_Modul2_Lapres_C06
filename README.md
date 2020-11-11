@@ -1,5 +1,7 @@
 # Jarkom_Modul2_Lapres_C06
-
+## Anggota Kelompok :
+* Nugroho Dimas A (05111840000075)
+* Zakiya Azizah Cahyaningtyas (05111840000080) <br> <br>
 ### Soal 1. Membuat sebuah website utama dengan (1) alamat http://semeruyyy.pw <br>
 Sebelumnya lakukan konfigurasi seperti pada modul pengenalan uml. <br>
 Langkah pertama adalah konfigurasi pada file /etc/bind/named.conf.local sesuai dengan gambar dibawah. 
