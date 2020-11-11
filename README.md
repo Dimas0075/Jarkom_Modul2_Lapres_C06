@@ -192,7 +192,7 @@ Berikut ini merupakan langkah penyelesaian :
 ![soal13akhir](https://user-images.githubusercontent.com/49650266/98772486-5b54d280-2419-11eb-93de-be03164f6129.png)
 
 ### Soal 14. Membuat web naik.gunung.semeruc06.pw bisa diakses lewat port 8888
-Berikut ini merupakan langkah penyelesaian :
+Berikut ini merupakan langkah penyelesaian : 
 * Salin config seperti tadi, tapi portnya ganti 8888 <br>
 ![soal14_1](https://user-images.githubusercontent.com/49650266/98772732-ff3e7e00-2419-11eb-8770-97bdf5a4bd11.png) <br>
 * Setting port agar listen ke 8888 <br>
@@ -201,7 +201,40 @@ Berikut ini merupakan langkah penyelesaian :
 * A2ensite, restart apache, buka <br>
 ![soal14_3](https://user-images.githubusercontent.com/49650266/98772734-01084180-241a-11eb-998e-48a231ab3e21.png)
 
-### Soal 15. 
+### Soal 15. Membuat autentikasi naik gunung user “semeru” pass “kuynaikgunung”
+Berikut ini merupakan langkah penyelesaian : 
+* Membuat user sama pass seperti ini. Kami disini memakai pass “kuy” karena malas hehe <br>
+![soal15_1](https://user-images.githubusercontent.com/49650266/98773133-d7034f00-241a-11eb-93ef-7ae06cc1bdb3.png) <br>
+* Edit config seperti ini <br>
+![soal15_2](https://user-images.githubusercontent.com/49650266/98773119-d4085e80-241a-11eb-9a4c-0db130a764cc.png) <br>
+* Hasilnya akan seperti ini <br>
+![soal15_3](https://user-images.githubusercontent.com/49650266/98773130-d66ab880-241a-11eb-852c-80e75b9cb307.png) <br>
+
+### Soal 16. Arahkan document root ip default ke semeruc06.pw
+![soal16_1](https://user-images.githubusercontent.com/49650266/98773431-7de7eb00-241b-11eb-807a-ae57d9a2b4e6.png) <br>
+Hasilnya akan seperti ini : <br>
+![soal16_2](https://user-images.githubusercontent.com/49650266/98773424-7c1e2780-241b-11eb-9156-afc8afdd29a7.png) <br>
+
+### Soal 17. Membuat request substring semeru redirect ke semeru.jpg
+Edit .htaccess lalu tambhkan seperti ini : <br>
+![soal17_1](https://user-images.githubusercontent.com/49650266/98773631-e59e3600-241b-11eb-849e-b408855922c1.png) <br>
+Penjelasan: 
+	* RewriteCond %{REQUEST_URI} !/public/images/semeru.jpg memastikan bahwa url request sekarang bukan semeru.jpg, untuk menghindari infinite redirect
+	* RewriteRule ^(.*)semeru(.*)$ -> mengecek substring semeru pada url
+	* /public/images/semeru.jpg url redirect nya
+![soal17_2](https://user-images.githubusercontent.com/49650266/98773623-e33bdc00-241b-11eb-9b13-b5b7f964fc8a.png) <br> <br>
+![soal17_3](https://user-images.githubusercontent.com/49650266/98773628-e46d0900-241b-11eb-8a29-790ffa306082.png)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
