@@ -163,6 +163,33 @@ Langkah menyelesaikan soal 10 :
 * Jalankan a2ensite dan restart apache <br>
 
 ### Soal 11. Pada folder /public dibolehkan directory listing namun untuk folder yang berada di dalamnya tidak dibolehkan.
+* Tambah Options +Indexes sm -Indexes seperti di bawah. <br>
+![soal11_1](https://user-images.githubusercontent.com/49650266/98771606-6d357600-2417-11eb-94c7-b6201c24364c.png) <br>
+* Restart apache. <br>
+* Coba buka. <br>
+![public](https://user-images.githubusercontent.com/49650266/98771779-c8676880-2417-11eb-8581-d07e710d62a4.png) <br>
+javascripts <br>
+![public1](https://user-images.githubusercontent.com/49650266/98771782-c9989580-2417-11eb-9a9d-c563a5f4a43f.png) <br>
+images <br>
+![public2](https://user-images.githubusercontent.com/49650266/98771783-ca312c00-2417-11eb-825e-591873498e5e.png) <br>
+css <br>
+![public3](https://user-images.githubusercontent.com/49650266/98771786-cac9c280-2417-11eb-989b-d1cfab79a13c.png) <br>
+public <br>
+
+### Soal 12. Mengatasi http error code 404, pake 404.html pada /error buat ganti defaultnya apache.
+
+Berikut ini merupakan langkah penyelesaian :
+* Setting di .htaccess seperti dibawah <br>
+![soal12awal](https://user-images.githubusercontent.com/49650266/98772090-84289800-2418-11eb-88b6-519de14d4053.png) <br>
+* Untuk mengetes, buka alamat asal, misal penanjakan.semeruc06.pw/jek-ganteng <br>
+![soal12hasil](https://user-images.githubusercontent.com/49650266/98772092-8559c500-2418-11eb-8f42-bdade7374385.png) <br>
+
+### Soal 13. Alias penanjakan.semeruc06.pw/public/javascripts jd penanjakan.semeruc06.pw/js
+
+
+
+
+
 
 
 
