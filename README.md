@@ -219,9 +219,9 @@ Hasilnya akan seperti ini : <br>
 Edit .htaccess lalu tambhkan seperti ini : <br>
 ![soal17_1](https://user-images.githubusercontent.com/49650266/98773631-e59e3600-241b-11eb-849e-b408855922c1.png) <br>
 Penjelasan: 
-	* RewriteCond %{REQUEST_URI} !/public/images/semeru.jpg memastikan bahwa url request sekarang bukan semeru.jpg, untuk menghindari infinite redirect
-	* RewriteRule ^(.*)semeru(.*)$ -> mengecek substring semeru pada url
-	* /public/images/semeru.jpg url redirect nya
+* RewriteCond %{REQUEST_URI} !/public/images/semeru.jpg memastikan bahwa url request sekarang bukan semeru.jpg, untuk menghindari infinite redirect
+* RewriteRule ^(.*)semeru(.*)$ -> mengecek substring semeru pada url
+* /public/images/semeru.jpg url redirect nya
 ![soal17_2](https://user-images.githubusercontent.com/49650266/98773623-e33bdc00-241b-11eb-9b13-b5b7f964fc8a.png) <br> <br>
 ![soal17_3](https://user-images.githubusercontent.com/49650266/98773628-e46d0900-241b-11eb-8a29-790ffa306082.png)
 
