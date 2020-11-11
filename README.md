@@ -147,12 +147,29 @@ Dan ini merupakan hasil yang diminta : <br>
 Langkah menyelesaikan soal 9 :
 * Nyalakan mod rewrite dengan a2enmod mod_rewrite
 * Konfigurasi semeruC06 agar bisa pake mod_rewrite kyk di modul
-* Buat .htaccess di /var/www/semeruC06.pw dengan rule berikut :
+* Buat .htaccess di /var/www/semeruC06.pw dengan rule berikut : <br>
 ![soal9conf](https://user-images.githubusercontent.com/49650266/98770859-bf759780-2415-11eb-8849-4b27874807c2.png) <br>
-Dibawah ini merupakan hasilnya :
+Dibawah ini merupakan hasilnya : <br>
 ![soal9hasil](https://user-images.githubusercontent.com/49650266/98770849-b97fb680-2415-11eb-9457-f6180e88d12c.png) <br>
 
-### Soal 10. 
+### Soal 10. Membuat penanjakan.semeruC06.pw untuk nyimpen file asset, root pada /var/www/penanjakan.semeruC06.pw
+
+Langkah menyelesaikan soal 10 :
+* Membuat config apache penanjakan.semeruC06.pw.conf dengan cp
+* Mengganti root, servername, dan alias <br>
+![soal10conf](https://user-images.githubusercontent.com/49650266/98771296-afaa8300-2416-11eb-8489-51d2acfceb4a.png) <br>
+* Download dan unzip penanjakan.semeru.zip ke /var/ww/penanjakan/semeruC06.pw <br>
+![soal10source](https://user-images.githubusercontent.com/49650266/98771370-e1234e80-2416-11eb-9fc4-3d6ea5c38e01.png) <br>
+* Jalankan a2ensite dan restart apache <br>
+
+### Soal 11. Pada folder /public dibolehkan directory listing namun untuk folder yang berada di dalamnya tidak dibolehkan.
+
+
+
+
+
+
+
 
 
 
