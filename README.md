@@ -154,6 +154,8 @@ Langkah menyelesaikan soal 9 :
 Dibawah ini merupakan hasilnya : <br>
 ![soal9hasil](https://user-images.githubusercontent.com/49650266/98770849-b97fb680-2415-11eb-9457-f6180e88d12c.png) <br>
 
+##### Tambahan -> RewriteRule ^home$ index.php/home [NC]
+
 ### Soal 10. Membuat penanjakan.semeruC06.pw untuk nyimpen file asset, root pada /var/www/penanjakan.semeruC06.pw
 
 Langkah menyelesaikan soal 10 :
@@ -211,6 +213,8 @@ Berikut ini merupakan langkah penyelesaian :
 ![soal15_2](https://user-images.githubusercontent.com/49650266/98773119-d4085e80-241a-11eb-9a4c-0db130a764cc.png) <br>
 * Hasilnya akan seperti ini <br>
 ![soal15_3](https://user-images.githubusercontent.com/49650266/98773130-d66ab880-241a-11eb-852c-80e75b9cb307.png) <br>
+
+##### Tambahan -> konfigurasi Redirect / http://www.semeruc06.pw
 
 ### Soal 16. Arahkan document root ip default ke semeruc06.pw
 ![soal16_1](https://user-images.githubusercontent.com/49650266/98773431-7de7eb00-241b-11eb-807a-ae57d9a2b4e6.png) <br>
