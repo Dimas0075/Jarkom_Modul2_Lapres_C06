@@ -214,12 +214,11 @@ Berikut ini merupakan langkah penyelesaian :
 * Hasilnya akan seperti ini <br>
 ![soal15_3](https://user-images.githubusercontent.com/49650266/98773130-d66ab880-241a-11eb-852c-80e75b9cb307.png) <br>
 
-##### Tambahan -> konfigurasi Redirect / http://www.semeruc06.pw
-
 ### Soal 16. Arahkan document root ip default ke semeruc06.pw
 ![soal16_1](https://user-images.githubusercontent.com/49650266/98773431-7de7eb00-241b-11eb-807a-ae57d9a2b4e6.png) <br>
 Hasilnya akan seperti ini : <br>
 ![soal16_2](https://user-images.githubusercontent.com/49650266/98773424-7c1e2780-241b-11eb-9156-afc8afdd29a7.png) <br>
+##### Tambahan -> konfigurasi Redirect / http://www.semeruc06.pw
 
 ### Soal 17. Membuat request substring semeru redirect ke semeru.jpg
 Edit .htaccess lalu tambhkan seperti ini : <br>
